@@ -45,26 +45,6 @@ I'm an 18-year-old student passionate about finance, tech, security & startups. 
 <!-- - [Twitter](your-twitter-url) -->
 <!-- - Email: your-email@example.com -->
 
-## 📊 GitHub Stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOURUSERNAME&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" height="170" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOURUSERNAME&theme=tokyonight&hide_border=true" alt="GitHub Streak" height="170" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOURUSERNAME&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-</div>
-
-## 🏆 Featured Projects
-<div align="center">
-  <a href="https://github.com/YOURUSERNAME/project-name">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=YOURUSERNAME&repo=project-name&theme=tokyonight&hide_border=true" />
-  </a>
-  <a href="https://github.com/YOURUSERNAME/another-project">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=YOURUSERNAME&repo=another-project&theme=tokyonight&hide_border=true" />
-  </a>
-</div>
 
 ## 🌐 Connect & Follow
 <div align="center">
@@ -82,8 +62,7 @@ I'm an 18-year-old student passionate about finance, tech, security & startups. 
   </a>
 </div>
 
-## 📈 Activity Graph
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=YOURUSERNAME&theme=tokyo-night&hide_border=true" width="100%" alt="activity graph">
+⭐️ From Richard Polanka
 
 ---
 
