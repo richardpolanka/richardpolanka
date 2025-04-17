@@ -63,11 +63,3 @@ I'm an 18-year-old student passionate about finance, tech, security & startups. 
 </div>
 
 ⭐️ From Richard Polanka
-
----
-
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=YOURUSERNAME&style=flat-square&color=blue" alt="Profile Views" />
-</div>
-
-⭐️ From [YOURUSERNAME](https://github.com/YOURUSERNAME)
