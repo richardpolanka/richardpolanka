@@ -1,65 +1,68 @@
-# Hi there, I'm Richard 👋
-
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=2C99F7&center=true&vCenter=true&width=600&lines=Finance+Enthusiast;Full+Stack+Developer;Security+Researcher;Startup+Founder" alt="Typing SVG" />
+  <img src="https://konomi.cz/konomiLogoRoundedSmall.png" width="72" alt="Konomi" />
+  <h1>Richard Polanka</h1>
+  <p>
+    I build <b><a href="https://konomi.cz">Konomi</a></b>, a learning platform for economics, finance and IT<br/>
+    used by Czech schools, teachers and students.<br/>
+    Economics student at <b>VŠE Prague</b>.
+  </p>
 </div>
 
-## 👨‍💻 About Me
-I'm an 18-year-old student passionate about finance, tech, security & startups. Currently exploring the intersection of technology and financial markets while building innovative web solutions and learning about cybersecurity.
+---
 
-## 🔍 My Interests
-- 💰 **Finance & FinTech** - Trading, investing, financial markets, cryptocurrency, blockchain technology
-- 💻 **Technology & Software Development** - Web development, mobile apps, automation, AI & machine learning
-- 🔐 **Cybersecurity** - Penetration testing, security audits, ethical hacking, vulnerability research
-- 🚀 **Startups & Entrepreneurship** - Business models, growth strategies, product development, venture capital
-- 📊 **Data Analysis** - Working with datasets, extracting insights, visualization techniques
+## Konomi
 
-## 🛠️ Tech Stack
+> Money isn't taboo. Economics isn't boring.
+
+Financial literacy in Czech schools is usually taught from photocopies and slide decks, and
+almost nobody finishes those. Konomi turns the same material into something students actually
+get through: short lessons laid out on a path, hearts and streaks that keep momentum, and
+interactive widgets where you move a slider and watch inflation quietly eat your savings.
+
+|  | |
+|---|---|
+| **Students** | Courses on taxes, personal budgeting, investing, trading, pensions, marketing, law, central banking and digital circuits. Free to start, no card. |
+| **Teachers** | Classes, assignments that mark themselves complete from real lesson progress, class leaderboards, a teacher's guide. |
+| **Schools** | Their own course studio, white-label content, managed student accounts, per-seat licensing. |
+
+**[konomi.cz](https://konomi.cz)** · [Courses](https://konomi.cz/prehled-kurzu) · [For schools](https://konomi.cz/skoly) · [Pricing](https://konomi.cz/cenik) · [Blog](https://konomi.cz/blog)
+
+### How it is built
+
+`Next.js 16 App Router` `TypeScript` `Drizzle ORM` `Neon Postgres` `Better Auth` `next-intl` `Tailwind` `shadcn/ui` `Stripe` `Vercel`
+
+Roughly 144k lines of TypeScript across ~790 files, designed, written and shipped solo.
+The parts I am most happy with:
+
+- **Content engine.** A lesson is a TipTap document, and interactive widgets (compound interest,
+  tax and budget calculators, market simulators) are first-class nodes inside it, so new course
+  material is authored rather than hard-coded.
+- **Challenger.** A game layer on top of the courses: word of the day, leaderboards, and a
+  map-based territory battle where students fight over regions of the country.
+- **Multi-tenant schools.** Organizations with their own courses, admins, student accounts and
+  billing, living in the same database as the public platform without leaking into it.
+- **One progress model.** Hearts, gems, stars, streaks and assignment completion are all derived
+  from the same activity events, so a lesson finished anywhere counts everywhere.
+
+---
+
+## Elsewhere
+
+Most of what I write lives in private repositories. What is public here is older and smaller:
+
+- **[digit_recognition_app](https://github.com/richardpolanka/digit_recognition_app)** — handwritten digit recognition, PyTorch + FastAPI
+- **[mcs51docs](https://github.com/richardpolanka/mcs51docs)** — documentation for the MCS-51 microcontroller
+- **[task-manager-gitops](https://github.com/richardpolanka/task-manager-gitops)** — GitOps configuration for a Kubernetes task manager
+- **[portfolio](https://github.com/richardpolanka/portfolio)** — an earlier personal site
+
+Before Konomi I spent my time on finance, security and a handful of client projects, which is
+roughly how I ended up wanting to teach the first two.
+
+---
+
 <div align="center">
-  <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/-Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
-  <img src="https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
-  <img src="https://img.shields.io/badge/-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-  <img src="https://img.shields.io/badge/-TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="TailwindCSS" />
-  <img src="https://img.shields.io/badge/-PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
-  <img src="https://img.shields.io/badge/-Django-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django" />
-  <img src="https://img.shields.io/badge/-FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/-SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL" />
-  <img src="https://img.shields.io/badge/-MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
-  <img src="https://img.shields.io/badge/-PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/-Drizzle_ORM-2C2C2C?style=for-the-badge" alt="Drizzle ORM" />
-  <img src="https://img.shields.io/badge/-MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
-  <img src="https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/-Coolify-5D87BF?style=for-the-badge" alt="Coolify" />
-  <img src="https://img.shields.io/badge/-Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
-  <img src="https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white" alt="GraphQL" />
-  <img src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/-AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS" />
-  <img src="https://img.shields.io/badge/-Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis" />
-  <img src="https://img.shields.io/badge/-Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white" alt="Prisma" />
-  <img src="https://img.shields.io/badge/-Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase" />
-  <img src="https://img.shields.io/badge/-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
-  <img src="https://img.shields.io/badge/-REST_API-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="REST API" />
+  <a href="mailto:richard.polanka@gmail.com"><img src="https://img.shields.io/badge/email-2BAB90?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://www.linkedin.com/in/richard-polanka-275041197/"><img src="https://img.shields.io/badge/linkedin-2BAB90?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://x.com/richard_polanka"><img src="https://img.shields.io/badge/x-2BAB90?style=flat-square&logo=x&logoColor=white" alt="X" /></a>
+  <a href="https://konomi.cz"><img src="https://img.shields.io/badge/konomi.cz-2BAB90?style=flat-square&logo=vercel&logoColor=white" alt="konomi.cz" /></a>
 </div>
-
-## 📫 How to Reach Me
-<div align="center">
-  <a href="mailto:richard.polanka@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  <a href="https://x.com/richard_polanka">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
-  </a>
-  <a href="https://www.linkedin.com/in/richard-polanka-275041197/?trk=people_directory&originalSubdomain=cz">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://discordapp.com/users/YOURDISCORDID">
-    <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
-  </a>
-</div>
-
-⭐️ From Richard Polanka
