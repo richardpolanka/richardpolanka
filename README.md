@@ -50,31 +50,6 @@ eat your savings.
 </tr>
 </table>
 
-<br/>
-
-**16 courses so far**
-
-<p>
-  <img src="https://konomi.cz/icons/courses/economics/1.svg" width="46" alt="" />
-  <img src="https://konomi.cz/icons/courses/economics/2.svg" width="46" alt="" />
-  <img src="https://konomi.cz/icons/courses/economics/3.svg" width="46" alt="" />
-  <img src="https://konomi.cz/icons/courses/economics/4.svg" width="46" alt="" />
-  <img src="https://konomi.cz/icons/courses/computing/5.svg" width="46" alt="" />
-  <img src="https://konomi.cz/icons/courses/computing/6.svg" width="46" alt="" />
-  <img src="https://konomi.cz/icons/courses/computing/7.svg" width="46" alt="" />
-  <img src="https://konomi.cz/icons/courses/economics/8.svg" width="46" alt="" />
-  <img src="https://konomi.cz/icons/courses/computing/9.svg" width="46" alt="" />
-  <img src="https://konomi.cz/icons/courses/economics/10.svg" width="46" alt="" />
-  <img src="https://konomi.cz/icons/courses/economics/11.svg" width="46" alt="" />
-  <img src="https://konomi.cz/icons/courses/economics/12.svg" width="46" alt="" />
-  <img src="https://konomi.cz/icons/courses/economics/13.svg" width="46" alt="" />
-  <img src="https://konomi.cz/icons/courses/economics/14.svg" width="46" alt="" />
-  <img src="https://konomi.cz/icons/courses/economics/15.svg" width="46" alt="" />
-  <img src="https://konomi.cz/icons/courses/economics/16.svg" width="46" alt="" />
-</p>
-
-<sub>taxes · budgeting · investing · trading · pensions · marketing · law · central banking · security · circuits</sub>
-
 </div>
 
 <br/>
